@@ -27,7 +27,58 @@
   <body>
     <div class="page">
       <!-- Encabezado de la pagina -->
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Logotipo de la Cafetería Triple"
+            class="nav__logo"
+          />
+          <div>
+            <ul class="nav__links">
+              <li>
+                <a class="nav__link" href="#receipt">Recetas</a>
+              </li>
+              <li>
+                <a class="nav__link" href="#reservation">Reservar una mesa</a>
+              </li>
+              <li>
+                <a class="nav__link" href="#contact">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="header__content">
+          <div>
+            <h1>
+              <span class="header__title"> Café de especialidad </span>
+            </h1>
+            <p class="header__titles">en Triple Peaks</p>
+            <p class="header__description">
+              ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos
+              café para darte energía y motivar tu creatividad.
+            </p>
+          </div>
+          <img
+            src="images/inside_coffee_shop.png"
+            alt="Ilustración 'Dentro de la biblioteca'"
+            class="header__image"
+          />
+        </div>
+
+        <div class="header__footer">
+          <div class="header__schedule">
+            <p>Horario:</p>
+            <p>Lunes a Viernes (de 10:00h a 19:00)</p>
+            <p>Sábados y Domingos (de 11:00h a 18:00h)</p>
+          </div>
+          <p class="header__address">
+            Success Avenue, a cidade de Triple Peaks
+          </p>
+        </div>
+      </header>
+
       <!-- Contenido principal de la pagina -->
       <main class="content">
         <!-- Dentro del contenido principal tenemos dos secciones. Seccion recetas -->
