@@ -10,8 +10,6 @@
     />
     <meta name="keywords" content="cafeteria, web, práctica, tripleten" />
 
-    <title>Cafetería de la web</title>
-
     <link rel="favicon" href="images/favicon.ico" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
@@ -53,8 +51,10 @@
             </ul>
           </div>
         </nav>
-        <h1 class="header__title">Café de especialidad</h1>
-        <h2 class="header__subtitle">en Triple Peaks</h2>
+        <h1 class="header__title">
+          <span class="header__span-accent">Café de especialidad</span>
+          en triple peaks
+        </h1>
         <p class="header__description">
           ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
           para darte energía y motivar tu creatividad.
@@ -87,7 +87,7 @@
             Echa un vistazo a las recetas que hemos reunido para que elabores
             tus propios snacks
           </h3>
-          <section class="recipes__videos">
+          <div class="recipes__videos">
             <div class="recipes__video-items" id="aeropress">
               <iframe
                 width="480"
@@ -116,13 +116,13 @@
                 Receta en cafetera francesa ~15 min
               </h3>
             </div>
-          </section>
+          </div>
         </section>
+        <!-- Segunda seccion de reservas -->
+        <section class="reservation"></section>
       </main>
+      <!-- Pie de pagina -->
+      <footer class="footer"></footer>
     </div>
-    <!-- Segunda seccion de reservas -->
-    <section class="reservation"></section>
-    <!-- Pie de pagina -->
-    <footer class="footer"></footer>
   </body>
 </html>
