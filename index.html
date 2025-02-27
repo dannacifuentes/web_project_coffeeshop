@@ -52,7 +52,7 @@
           </div>
         </nav>
         <h1 class="header__title">
-          <span class="header__span-accent">Café de especialidad</span>
+          <span class="header__span-accent">Café de especialidad </span>
           en triple peaks
         </h1>
         <p class="header__description">
@@ -120,9 +120,66 @@
             </div>
           </div>
         </section>
-        <!-- Segunda seccion de reservas -->
-        <section class="reservation" id="reservation"></section>
       </main>
+      <section class="reservation" id="reservation">
+        <h2 class="form__title">Reservar una mesa</h2>
+
+        <form class="reservation__form form">
+          <fieldset class="form__set">
+            <label for="name" class="form__label">Nombre</label>
+            <input
+              type="text"
+              class="form__item form__item_el_heading"
+              id="name"
+              name="name"
+              placeholder="Nombre"
+              required
+            />
+
+            <label for="people-numer" class="form__label"
+              >Número de comensales</label
+            >
+            <input
+              type="number"
+              class="form__item form__item_el_heading"
+              id="people-numer"
+              name="people-numer"
+              min="1"
+              max="8"
+              placeholder="1-8"
+              required
+            />
+
+            <label for="date-time" class="form__label">Fecha y hora</label>
+            <input
+              type="datetime"
+              class="form__item form__item_el_heading"
+              id="date-time"
+              name="date-time"
+              required
+            />
+
+            <label for="email" class="form__label">Tu correo electrónico</label>
+            <input
+              type="email"
+              class="form__item form__item_el_heading"
+              id="email"
+              name="email"
+              placeholder="email@email.com"
+              required
+            />
+
+            <button type="submit" class="form__button">
+              Reservar una mesa
+            </button>
+
+            <label for="checkbox">
+              <input type="checkbox" id="checkbox" />
+              Acepta términos y condiciones
+            </label>
+          </fieldset>
+        </form>
+      </section>
       <!-- Pie de pagina -->
       <footer class="footer"></footer>
     </div>
