@@ -120,14 +120,14 @@
             </div>
           </div>
         </section>
-        <section class="reservation__title" id="reservation">
-          <h2 class="form form__title">Reservar una mesa</h2>
-          <form class="form reservation__form">
-            <fieldset class="form__set">
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+          <form class="form">
+            <fieldset class="form form__set">
               <label for="name" class="form__label">Nombre</label>
               <input
                 type="text"
-                class="form__item form__item_el_heading"
+                class="form__item .form__item_el_input"
                 id="name"
                 name="name"
                 placeholder="Nombre"
@@ -139,7 +139,7 @@
               >
               <input
                 type="number"
-                class="form__item form__item_el_heading"
+                class="form__item form__item_el_input"
                 id="people-numer"
                 name="people-numer"
                 min="1"
@@ -151,7 +151,7 @@
               <label for="date-time" class="form__label">Fecha y hora</label>
               <input
                 type="datetime-local"
-                class="form__item form__item_el_heading"
+                class="form__item form__item_el_input"
                 id="date-time"
                 name="date-time"
                 required
@@ -162,7 +162,7 @@
               >
               <input
                 type="email"
-                class="form__item form__item_el_heading"
+                class="form__item form__item_el_input"
                 id="email"
                 name="email"
                 placeholder="email@email.com"

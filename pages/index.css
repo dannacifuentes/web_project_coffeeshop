@@ -192,7 +192,7 @@
   padding-top: 24px;
 }
 
-.reservation__title {
+.reservation {
   background-color: #d9e7ff;
   background-image: url(background_reservation.svg);
   background-repeat: no-repeat;
@@ -204,13 +204,18 @@
   align-items: center;
 }
 
-.reservation__form {
-  max-width: 385px;
-  margin-bottom: 120px;
+.reservation__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .form {
   padding: 0;
+  max-width: 385px;
+  margin-bottom: 120px;
 }
 
 .form__set {
@@ -251,7 +256,7 @@
   padding-bottom: 8px;
 }
 
-.form__item_el_heading {
+.form__item_el_input {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
