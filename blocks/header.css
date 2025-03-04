@@ -23,6 +23,12 @@
 }
 
 .header__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
 }
 
 .header__span-accent {
