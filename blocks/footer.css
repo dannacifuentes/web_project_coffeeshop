@@ -27,7 +27,7 @@
 .footer__list {
   list-style-type: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .footer__social-heading {
@@ -36,12 +36,6 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-}
-
-.footer__link {
-  display: flex;
-  gap: 20px;
-  align-items: center;
 }
 
 .footer__social-link {
@@ -54,6 +48,9 @@
   text-decoration: none;
   display: flex;
   gap: 10px;
+  align-items: center;
+  display: flex;
+  gap: 20px;
   align-items: center;
 }
 
